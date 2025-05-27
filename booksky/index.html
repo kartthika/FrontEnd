@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Booksky</h1>
+    </div>
+    <div class="container">
+    <div class="containerbox">
+        <h2>Rich Dad poor dad</h2>
+        <h3>robert</h3>
+        <p>"Rich Dad Poor Dad" by Robert Kiyosaki contrasts financial lessons from his "rich dad" and "poor dad," emphasizing the importance of financial literacy, investing, and entrepreneurship. It challenges traditional beliefs about money and encourages readers to seek financial independence through smart money management.</p>
+        <button onclick="disappear(event)">delete</button></div>
+    </div>     
+
+
+        <div class="overlay"></div>
+        <div class="popbox">
+            <h2>ADD BOOK</h2>
+            <form>
+        <input id="bookname" placeholder="book tittle">
+        <input id="bookauthor" placeholder="author name">
+        <textarea id="description" placeholder="add discription"></textarea>
+        <button id="add-pop">add</button>
+        <button id="cancel-pop" onclick="def(event)">cancel</button>
+         </form>
+        
+    </div>   
+    <button class="pop" type="button" id="show-pop">+</button> 
+ </body>
+</html>                                                                                                                                                                               
